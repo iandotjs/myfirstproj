@@ -1,14 +1,12 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>{{config('app.name')}}</title>
-
-    </head>
-    <body>
-        <h1>Welcome To {{config('app.name')}}!</h1>
-        <p>This is based on the "Laravel from scratch" series on youtube by traversy media.</p>
-    </body>
-</html>
+@section('content')
+    <div class="jumbotron text-center ">
+        <h1>{{$title}}</h1>
+        <p>More info</p>
+        <p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Login</a> <a class="btn btn-success btn-lg" href="#" role="button">Register</a>
+        </p>
+    </div>
+@endsection
+        
