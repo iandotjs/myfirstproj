@@ -25,3 +25,4 @@ Route::get('/contacts', 'PagesController@contacts');
 
 Route::get('/services', 'PagesController@services');
 
+Route::resource('/posts', 'PostsController');

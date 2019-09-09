@@ -5,13 +5,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="about">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="contacts">Contact Us</a>
+                    <a class="nav-link" href="/posts">Blog <span class="sr-only">(current)</span></a>
+                </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/contacts">Contact Us</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="services">Our Services</a>
+                <a class="nav-link" href="/services">Our Services</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
