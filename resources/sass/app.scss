@@ -6,6 +6,9 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~@bootstrap/scss/bootstrap/scss/fontawesome.scss';
+@import "~@scss/fontawesome.scss";
+@import "~@scss/solid.scss";
 
 //Custom
 @import "custom";

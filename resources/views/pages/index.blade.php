@@ -3,9 +3,9 @@
 @section('content')
     <div class="jumbotron text-center ">
         <h1>{{$title}}</h1>
-        <p>More info</p>
+        <br>
         <p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Login</a> <a class="btn btn-success btn-lg" href="#" role="button">Register</a>
+            <a class="btn btn-primary btn-lg" href="/posts/create" role="button">Create DiaBlog</a> <a class="btn btn-success btn-lg" href="/posts" role="button">View DiaBlogs</a>
         </p>
     </div>
 @endsection

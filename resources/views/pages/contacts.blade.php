@@ -2,5 +2,5 @@
 
 @section('content')
         <h1>{{$title}}</h1>
-        <p>Leave us a message below.</p>
-@endsection        
+        <p>I'm unreachable!</p>
+        @endsection        
