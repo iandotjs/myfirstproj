@@ -12,9 +12,6 @@
 
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
                                 <a class="nav-link" href="/posts">Blog <span class="sr-only">(current)</span></a>
                             </li>
                         <li class="nav-item active">
@@ -22,6 +19,9 @@
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="/services">Our Services</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
                         </li>
                 </ul>
 
